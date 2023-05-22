@@ -25,10 +25,10 @@
  8. use useTransition and useDeferedValue
      1. read items in local storage using useTransition
      2. change cartItems.length to transition effect
-Deploy website on github pages
-login github account
-push code to github
-npm install gh-pages --save-dev
-package.json "homepage": "https://github_name.github.io/webapp_name",
-add deployment script: "predeploy": "npm run build", "deploy": gh-pages -d build",
-npm run deploy
+ 9. Deploy website on github pages
+     1. login github account
+     2. push code to github
+     3. npm install gh-pages --save-dev
+     4. package.json "homepage": "https://github_name.github.io/webapp_name",
+     5. add deployment script: "predeploy": "npm run build", "deploy": gh-pages -d build",
+     6. npm run deploy
